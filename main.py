@@ -11,7 +11,7 @@ reload(sys)
 sys.setdefaultencoding("utf-8")
 """
 handler message              _____'_____
-start & copy right negative /Taylor Team\ MIT
+start & copy right negative /Weed Team\ MIT
                            |______'______|
 """
 def run ():
@@ -32,14 +32,14 @@ def run ():
                             bot.send_action(chat_id,'typing')
                             key = json.dumps(
                             {'inline_keyboard':[[
-                            {'text':'Developer 👓','url':'https://telegram.me/negative'},
-                            {'text':'Taylor Team 🔌','url':'https://telegram.me/taylor_team'}
+                            {'text':'Developer 👓','url':'https://telegram.me/weed_dog'},
+                            {'text':'Taylor Team 🔌','url':'https://telegram.me/weed_team'}
                             ],
                             [
-                            {'text':'Your Info 🕶','url':'https://telegram.me/Taylor_tmtmbot?start=info'}
+                            {'text':'Your Info 🕶','url':'https://telegram.me/weed_bot?start=info'}
                             ],
                             [
-                            {'text':'Taylor Team Inline','switch_inline_query':'taylor-team'}
+                            {'text':'Taylor Team Inline','switch_inline_query':'weed_team
                             ]
                             ]
                             })
@@ -66,7 +66,7 @@ def run ():
                             ]
                             ]
                             })
-                            bot.send_photo(chat_id,open('photo-2016-06-09-01-09-41.jpg'),caption='@Taylor_Team',reply_markup=markup)
+                            bot.send_photo(chat_id,open('photo-2016-06-09-01-09-41.jpg'),caption='@weedam',reply_markup=markup)
                         if(command == '/info' or command == '/start info'):
                             bot.getUpdates(last_update+1)
                             bot.send_action(chat_id,'typing')
